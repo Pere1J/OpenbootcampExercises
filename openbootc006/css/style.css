@@ -1,0 +1,11 @@
+.galery{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+gap: 2px;
+
+}
+
+.cover{
+    width: 300px;
+}
