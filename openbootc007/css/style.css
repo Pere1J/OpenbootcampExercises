@@ -3,16 +3,16 @@ button {
     width: 100px;
 }
 
-button:hover {
-    color: white;
-    background-color: green;
-    
-}
-
 button::before {
     content: 'Pasa por encima';
 }
 
-.button-1 button::after {
-    content: 'Hecho';
+.button-1:hover{
+    color: white;
+    background-color: green;
+    
 }
+button:hover::before{
+        content: '¡Hecho!'; 
+}
+
