@@ -1,0 +1,11 @@
+{
+  "name": "openbootjsejerc002",
+  "version": "1.0.0",
+  "description": "2º ejercicio Js openbootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PereJosep",
+  "license": "ISC"
+}
