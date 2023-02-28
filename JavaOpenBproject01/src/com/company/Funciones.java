@@ -4,7 +4,7 @@ public class Funciones {
 
     public static void main(String[] args) {
 
-        imprimeNombre("Pepe");
+        imprimeNombre("Pepe"); //ejecucion de la función
 
     }
 
