@@ -8,16 +8,18 @@ public class Strings {
         endsWith("")
         indexOf("")
         subString(1,5)
-        trim()
-        equals()
+        trim() >> elimina espacios en blanco
+        equals() >> compara diferentes strings
         compareTo()
          */
 
         String mensaje = "Hola mundo";
-        mensaje.length(); //esto  deberia devolver la longitud pero hay que guardarlo en un estado nuevo
+        mensaje.length(); //calcula la longitud
 
         int longitudMensaje = mensaje.length(); //creamos un estado que lo contenga
         System.out.println(longitudMensaje); //imprimimos el estado
+
+        //mensaje.equals();
 
     }
 }
