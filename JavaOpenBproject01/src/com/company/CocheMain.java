@@ -10,4 +10,12 @@ public class CocheMain {
 
         System.out.println(cocheObjeto);
 
+        //para definir un coche eléctrico repetimos paso anterior
+
+        CocheElectrico cocheObjeto2 = new CocheElectrico("a pilas");
+
+        cocheObjeto2.color = "black";
+
+        System.out.println(cocheObjeto2);
+
     }}
