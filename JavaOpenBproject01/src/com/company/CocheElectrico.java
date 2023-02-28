@@ -6,9 +6,13 @@ public class CocheElectrico extends Coche{
 
 // definimos constructor para poder usarlo en los objetos
 
-    public CocheElectrico (String motorElectrico){
-     this.motorElectrico = motorElectrico;
-        };
+
+
+
+    public CocheElectrico(String marca, String modelo, Double peso, String color, String motorElectrico) {
+        super(marca, modelo, peso, color);
+        this.motorElectrico = motorElectrico;
+    }
 
     @Override
     public String toString() {

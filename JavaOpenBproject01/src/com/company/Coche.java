@@ -1,6 +1,7 @@
 package com.company;
 
-public class Coche {
+public abstract class Coche {
+    //si declaro 'abstract' no se pueden crear objetos idénticos a la clase
     // atributos
     String marca;
     String modelo;
