@@ -7,6 +7,7 @@ import com.company.interfaces.CocheService;
 public class CocheServiceClassicCarImpl implements CocheService {
     @Override
     public Coche createCoche() {
-        return new CocheElectrico();
+        System.out.println("creando un nuevo coche");
+        return new CocheElectrico("","",1d,"","");
     }
 }
