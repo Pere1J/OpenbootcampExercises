@@ -6,7 +6,7 @@ public class exercise03 {
         // e imprima el resultado final por consola.
         //Tened en cuenta que los textos pueden venir de un array de tipo String.
 
-        String[] names= {"John", "Paul", "Ringo", "George"};
+        String[] names = {"John", "Paul", "Ringo", "George"};
         String group = "";
 
         for (int i = 0; i < names.length; i++) {
