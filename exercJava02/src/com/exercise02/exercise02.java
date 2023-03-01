@@ -10,7 +10,6 @@ public class exercise02 {
 
         double precioTotal = precioMasIva(iva,precio);
 
-
         System.out.println("el precio total con iva es " + precioTotal);
 
     }
