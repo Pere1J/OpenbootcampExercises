@@ -13,7 +13,6 @@ public class SmartDevice {
     //atributos
 
     String tecnologia;
-    double pantalla;
     String fabricante;
     String sistemaOperativo;
 
@@ -22,14 +21,27 @@ public class SmartDevice {
     public SmartDevice() {
     }
 
-    public SmartDevice(String tecnologia, double pantalla, String fabricante, String sistemaOperativo) {
+    public SmartDevice(String tecnologia, String fabricante, String sistemaOperativo) {
         this.tecnologia = tecnologia;
-        this.pantalla = pantalla;
         this.fabricante = fabricante;
         this.sistemaOperativo = sistemaOperativo;
     }
 
+    //SmartDevice smart = new SmartDevice("5G","Samsung","Android"); ERROR!! no declarar objetos en las clases.
+
+
     //métodos
 
+    public void call (){
+        System.out.println("está sonando algún Smart Device");
+    }
 
+    @Override
+    public String toString() {
+        return "SmartDevice{" +
+                "tecnologia='" + tecnologia + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", sistemaOperativo='" + sistemaOperativo + '\'' +
+                '}';
+    }
 }

@@ -10,7 +10,7 @@ public class Camion extends Vehiculo {
 
 
     //constructor
-    Camion (){}
+    public Camion(){}
 
 
 

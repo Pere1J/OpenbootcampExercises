@@ -1,5 +1,7 @@
 package com.company.oop.clases;
 
+import com.company.oop.herencia.Camion;
+import com.company.oop.herencia.Coche;
 import com.company.oop.herencia.Motocicleta;
 
 public class Main {
@@ -25,12 +27,23 @@ public class Main {
         //HERENCIAS
         // otro objeto a partir de una clase hija
 
+        //clase hija   nombreObjeto          objeto
         Motocicleta kawasakiNinja = new Motocicleta();
         kawasakiNinja.fabricante = "Kawasaki";
 
         System.out.println(kawasakiNinja);
 
         //POLIMORFISMO
+
+        Vehiculo vehiculo; // variable  a partir de clase padre
+
+        //la misma variable se puede asignar a diferentes objetos porque todos la heredan
+        // y la tienen en común
+
+        vehiculo = new Motocicleta();
+        vehiculo = new Camion();
+        vehiculo = new Coche();
+
 
 
     }

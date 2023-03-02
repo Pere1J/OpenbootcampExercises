@@ -17,4 +17,5 @@ public class Motocicleta extends Vehiculo {
         super(modelo, fabricante, cc, year, color, sport, speed, motor);
         this.baul = baul;
     }
+
 }
