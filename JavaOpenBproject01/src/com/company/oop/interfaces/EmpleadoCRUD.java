@@ -13,7 +13,7 @@ public class EmpleadoCRUD {
     private  List<Empleado> plantillaEmpleados = new ArrayList<>();
 
     //CREATE guardar empleados .Creamos una función que añada los objetos clase Empleado a la lista creada más arriba
-
+    //"save"
     public void guardarEmpleados(Empleado employee) {
 
         plantillaEmpleados.add(employee);
